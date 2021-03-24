@@ -180,33 +180,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6cd0c657da915144bd367d385c0fc31, type: 3}
---- !u!1 &22626974 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3561162642071989341, guid: 39764549f71b60a49ba452b62d5d4076, type: 3}
-  m_PrefabInstance: {fileID: 2115217993}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &22626975 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 177235064735609080, guid: 39764549f71b60a49ba452b62d5d4076, type: 3}
   m_PrefabInstance: {fileID: 2115217993}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &22626976
+--- !u!114 &22626979 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6674250696139446575, guid: 39764549f71b60a49ba452b62d5d4076, type: 3}
+  m_PrefabInstance: {fileID: 2115217993}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 22626974}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52d56b5228dd353429add5b6048d4f35, type: 3}
+  m_Script: {fileID: 11500000, guid: 45977bbae16431c46a013576a1aea384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2063808971}
-  speed: 5
-  minX: -9
-  maxX: 15
-  rotationSpeed: 5
 --- !u!4 &191529598 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4085613477960446, guid: 7eb437ce89e76c640809f70f15bde317, type: 3}
@@ -269,11 +258,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 150fadf88f51c2b4b9b7b62af8d39db9, type: 3}
---- !u!1 &256385802 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6655062934593231743, guid: 5ef389bbe5d85b5488a27e9bb3021af3, type: 3}
-  m_PrefabInstance: {fileID: 379043347}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &379043347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -341,6 +325,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 112
       objectReference: {fileID: 0}
+    - target: {fileID: 8146929471637558867, guid: 5ef389bbe5d85b5488a27e9bb3021af3, type: 3}
+      propertyPath: joystick
+      value: 
+      objectReference: {fileID: 22626979}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ef389bbe5d85b5488a27e9bb3021af3, type: 3}
 --- !u!1 &391353929
@@ -1296,19 +1284,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1.06, z: 0}
---- !u!114 &2063808973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2063808970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b8ea67b2b9ee734f9f58721d15f5e55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mask: {fileID: 256385802}
 --- !u!1001 &2115217993
 PrefabInstance:
   m_ObjectHideFlags: 0
